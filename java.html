@@ -8,14 +8,20 @@ alert("welcome to java script");
 confirm("agreed?");
 var i=prompt("enter something.");
 document.write(i);
-
 }
+
+function eventhandler()
+{
+alert("I'm event handler!!");
+}
+
 </script>
 </head>
 <body>
 <script >
 document.write("my first java script:"+"<br/>");
 </script>
+<p onmouseover="eventhandler();">Bring ur mouse here </p>
 <button type="button" name="ok" onclick="hello();">click Me!</button>
 </body>
 </html>
