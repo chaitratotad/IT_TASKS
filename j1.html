@@ -1,0 +1,30 @@
+<html>
+<head>
+<title>java session1</title>
+<script type="text/javascript" >
+var count=1,sum=0;
+document.write("starting loop"+"<br/>");
+do
+{
+document.write("current count:"+count+"<br/>");
+sum=sum+count;
+count++;
+}
+while (count<5);
+document.write("sum:"+sum+"<br/>");
+document.write("loop stopped!");
+
+function hello(name,age)
+{
+document.write(name +"is"+age +"years old");
+document.write("hi");
+}
+
+
+</script>
+</head>
+<body >
+<button type="button" name="ok" onmouseout="hello('chai',20);">click Me!</button>
+
+</body>
+<html>
