@@ -1,34 +1,22 @@
 <html>
 <head>
-<title>ABC</title>
-<script type="text/javascript">
-function validate()
-{
-var X="";
-var name=document.Regform.firstname.value;
-if(name=="")
-{
-alert("enter your first Name");
-x+="Please enter your first name.";
-document.getElementById('error').innerHTML=x;
-return false;
-}
-else 
-{
-alert("thank you");
-return true;
-}
-}
-</script>
-</head>
+<title>ABC</title></head>
 <body>
-<form name="Regform" method="post" 
-onSubmit="return validate();">
-First Name:
-<input type="text" name="firstname" id="firstname" size="30"/>
-<input type="submit" name="submit" value="click"/>
-<div name="error" id="error">
-</div>
-</form>
+<script>
+
+var d=new Date();
+if(d.getHours()<10)
+{
+document.write("good morning<br/>"+d.getHours());
+document.write(new Date()+"<br/>");
+}
+
+else
+{
+document.write("good day<br/>"+d.getHours()+"<br/>");
+document.write(new Date()+"<br/>");
+}
+
+</script>
 </body>
 </html>
