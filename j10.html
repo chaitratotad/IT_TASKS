@@ -1,0 +1,51 @@
+<html>
+<head>
+<title>j10</title>
+<script type="text/javascript">
+function display(a)
+{
+i=0;
+for(i in a)
+{
+document.write(a[i]+"<br/>");
+i++;
+}
+}
+
+function sorting(a)
+{
+for(i=0;i<a.length-1;i++)
+{
+for(j=i+1;j<a.length;j++)
+{
+if (a[i]>a[j])
+{
+t=a[i];
+a[i]=a[j];
+a[j]=t;
+}}}
+
+}
+</script>
+</head>
+<body>
+<script >
+//var a1=new Array(10,20,30,40,50);
+document.write("array before sort:"+"<br/>");
+var a1=[60,10,20,30,40,50];
+display(a1);
+document.write("array after sort:"+"<br/>");
+sorting(a1);
+display(a1);
+
+document.write("<br/><br/><br/>");
+
+/*var a=new Array();
+for(i=0;i<5;i++)
+{
+a[i]=i;
+document.write("this is:"+a[i]+"<br/>");
+}*/
+</script>
+</body>
+</html>
