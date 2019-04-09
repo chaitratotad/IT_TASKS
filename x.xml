@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<program>
+
+1st program........................:
+<student>
+<regno>101</regno>
+<name>
+<fname>ABC</fname>
+<lname>PSG</lname>
+</name>
+<address>#123,ahfuiag,stguiohk</address>
+<dept>CSE</dept>
+<mobile>1234567899</mobile>
+</student>
+
+2nd program..........................:
+
+<root xmlns:h="HighSchool" xmlns:m="MedicalSchool">
+<h:sub>Geometry</h:sub>
+<m:sub>Cardiology</m:sub>
+</root>
+
+
+
+
+
+
+</program>

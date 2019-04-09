@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE note[
+<!ENTITY nbsp "&#xA0;">
+<!ENTITY writer "Writer:Donald Duck.">
+<!ENTITY copyright "Copyright:W3Schools.">
+]>
+
+<note>
+<to>Tove</to>
+<from>Jani</from>
+<heading>Remainder</heading>
+<body>Dont forget me this weekend!</body>
+<footer>&writer;&nbsp;&copyright;</footer>
+</note>

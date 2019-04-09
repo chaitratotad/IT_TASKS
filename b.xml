@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE noteList[
+<!ELEMENT noteList (note+)>
+<!ELEMENT note (to,from,heading,body)>
+<!ELEMENT to (#PCDATA)>
+<!ELEMENT from (#PCDATA)>
+<!ELEMENT heading (#PCDATA)>
+<!ELEMENT body (#PCDATA)>
+]>
+<noteList>
+
+<note>
+<to>Tove</to>
+<from>Jani</from>
+<heading>Remainder</heading>
+<body>Dont forget me this weekend!</body>
+</note>
+
+<note>
+<to>Joyce</to>
+<from>Mary</from>
+<heading>Remainder2</heading>
+<body>Dont forget me this weekend!</body>
+</note>
+
+</noteList>

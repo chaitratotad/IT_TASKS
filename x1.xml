@@ -1,0 +1,38 @@
+<?xml version="1.0"?>
+<!DOCTYPE letter[
+<!ELEMENT letter (contact+,salutation,paragraph+,closing,signature)>
+<!ELEMENT contact (name,address1,address2,city,state,zip,phone,flag)>
+<!ATTLIST contact type CDATA #IMPLIED>
+<!ELEMENT name (#PCDATA)>
+<!ELEMENT address1 (#PCDATA)>
+<!ELEMENT address2 (#PCDATA)>
+<!ELEMENT city (#PCDATA)>
+<!ELEMENT state (#PCDATA)>
+<!ELEMENT zip (#PCDATA)>
+<!ELEMENT phone (#PCDATA)>
+<!ELEMENT flag EMPTY>
+<!ATTLIST flag gender (M|F) "F">
+<!ELEMENT salutation (#PCDATA)>
+<!ELEMENT closing (#PCDATA)>
+<!ELEMENT paragraph (#PCDATA)>
+<!ELEMENT signature (#PCDATA)>
+]>
+
+<letter>
+
+<contact>
+<name>XYZ</name>
+<address1>abcd</address1>
+<address2>efgh</address2>
+<city>BOMBAY</city>
+<state>Maharastra</state>
+<zip>12345</zip>
+<phone>9876543213</phone>
+<flag></flag>
+</contact>
+
+<salutation>HELLO!</salutation>
+<paragraph>qwertyuiopasdfghjklzxcvbnm</paragraph>
+<closing>BYE</closing>
+<signature>cutie</signature>
+</letter>
